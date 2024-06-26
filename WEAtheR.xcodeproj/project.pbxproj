@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2548AD2C2B576600DCCAAF /* inputPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2548AC2C2B576600DCCAAF /* inputPage.swift */; };
+		BD2548AF2C2B5E9E00DCCAAF /* NewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2548AE2C2B5E9E00DCCAAF /* NewPage.swift */; };
+		BD2548B12C2B62A600DCCAAF /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2548B02C2B62A600DCCAAF /* Lists.swift */; };
 		BD60C1322C2A0AC9000F53CC /* WEAtheRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60C1312C2A0AC9000F53CC /* WEAtheRApp.swift */; };
 		BD60C1342C2A0AC9000F53CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60C1332C2A0AC9000F53CC /* ContentView.swift */; };
 		BD60C1362C2A0AD6000F53CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60C1352C2A0AD6000F53CC /* Assets.xcassets */; };
 		BD60C1392C2A0AD6000F53CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60C1382C2A0AD6000F53CC /* Preview Assets.xcassets */; };
+		BDB081D12C2CBFC20032B947 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB081D02C2CBFC20032B947 /* LocationViewModel.swift */; };
+		BDB081D32C2CBFCB0032B947 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB081D22C2CBFCB0032B947 /* LocationManager.swift */; };
+		BDB081D52C2CBFD60032B947 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB081D42C2CBFD60032B947 /* WeatherService.swift */; };
+		BDB081D72C2CBFF80032B947 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB081D62C2CBFF80032B947 /* DailyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2548AC2C2B576600DCCAAF /* inputPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputPage.swift; sourceTree = "<group>"; };
+		BD2548AE2C2B5E9E00DCCAAF /* NewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPage.swift; sourceTree = SOURCE_ROOT; };
+		BD2548B02C2B62A600DCCAAF /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		BD60C12E2C2A0AC9000F53CC /* WEAtheR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEAtheR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD60C1312C2A0AC9000F53CC /* WEAtheRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEAtheRApp.swift; sourceTree = "<group>"; };
 		BD60C1332C2A0AC9000F53CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD60C1352C2A0AD6000F53CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD60C1382C2A0AD6000F53CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDB081D02C2CBFC20032B947 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		BDB081D22C2CBFCB0032B947 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BDB081D42C2CBFD60032B947 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		BDB081D62C2CBFF80032B947 /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				BD60C1312C2A0AC9000F53CC /* WEAtheRApp.swift */,
+				BDB081D02C2CBFC20032B947 /* LocationViewModel.swift */,
+				BDB081D22C2CBFCB0032B947 /* LocationManager.swift */,
+				BDB081D42C2CBFD60032B947 /* WeatherService.swift */,
+				BDB081D62C2CBFF80032B947 /* DailyView.swift */,
 				BD60C1332C2A0AC9000F53CC /* ContentView.swift */,
+				BD2548AC2C2B576600DCCAAF /* inputPage.swift */,
+				BD2548AE2C2B5E9E00DCCAAF /* NewPage.swift */,
+				BD2548B02C2B62A600DCCAAF /* Lists.swift */,
 				BD60C1352C2A0AD6000F53CC /* Assets.xcassets */,
 				BD60C1372C2A0AD6000F53CC /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB081D72C2CBFF80032B947 /* DailyView.swift in Sources */,
+				BDB081D52C2CBFD60032B947 /* WeatherService.swift in Sources */,
 				BD60C1342C2A0AC9000F53CC /* ContentView.swift in Sources */,
+				BDB081D12C2CBFC20032B947 /* LocationViewModel.swift in Sources */,
+				BD2548B12C2B62A600DCCAAF /* Lists.swift in Sources */,
+				BDB081D32C2CBFCB0032B947 /* LocationManager.swift in Sources */,
+				BD2548AD2C2B576600DCCAAF /* inputPage.swift in Sources */,
 				BD60C1322C2A0AC9000F53CC /* WEAtheRApp.swift in Sources */,
+				BD2548AF2C2B5E9E00DCCAAF /* NewPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +302,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WEAtheR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to give recommendations based on the current weather!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +331,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WEAtheR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to give recommendations based on the current weather!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
